@@ -29,7 +29,7 @@ An advanced, premium-designed Retrieval-Augmented Generation (RAG) system built 
 ### 1. Clone the repository and navigate into it:
 ```bash
 git clone https://github.com/7vaibhav31/RAG_PROJECT_LIVE.git
-cd RAG_PROJECT_LIVE/emergency_triage
+cd RAG_PROJECT_LIVE/rag
 ```
 
 ### 2. Set up a Virtual Environment:
