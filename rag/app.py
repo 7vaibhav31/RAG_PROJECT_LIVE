@@ -410,6 +410,10 @@ HTML_PAGE = """<!DOCTYPE html>
           <div class="welcome-icon">⚡</div>
           <h3>Ready to assist you</h3>
           <p>Your document is loaded into the RAG pipeline. Ask any question and get precise, grounded answers.</p>
+          <div style="margin-top:24px; font-size:0.82rem; color:var(--text-light); border:1.5px dashed var(--border); padding:12px; border-radius:12px; max-width:400px; margin-left:auto; margin-right:auto; text-align:left;">
+            🔒 <strong>Note: Handling Out-of-Scope Questions</strong><br>
+            To prevent hallucinations, the assistant is strictly grounded in the uploaded context. If a question cannot be answered directly from the document, the AI will refuse to answer.
+          </div>
         </div>
       </div>
       <div class="chat-input-area">

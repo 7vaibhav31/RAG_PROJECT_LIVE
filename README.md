@@ -12,6 +12,9 @@ An advanced, premium-designed Retrieval-Augmented Generation (RAG) system built 
 - **Live Telemetry:** Real-time metrics dashboard tracking latency (ms), token speed (tokens/sec), and search confidence.
 - **Vercel Optimized:** Extremely lightweight design with no heavy deep-learning dependencies (such as PyTorch), making it 100% free to deploy on serverless platforms.
 
+> [!NOTE]
+> **Handling Out-of-Scope Questions:** To prevent hallucinations, the AI acts strictly as a reading comprehension engine grounded in the uploaded context. If a user asks a question that is not addressed in the document, the AI is explicitly instructed to refuse to answer.
+
 ---
 
 ## 🏗️ Architecture Stack
