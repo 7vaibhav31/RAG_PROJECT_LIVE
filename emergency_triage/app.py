@@ -410,12 +410,6 @@ HTML_PAGE = """<!DOCTYPE html>
           <div class="welcome-icon">⚡</div>
           <h3>Ready to assist you</h3>
           <p>Your document is loaded into the RAG pipeline. Ask any question and get precise, grounded answers.</p>
-          <div class="suggest-chips">
-            <div class="chip" onclick="useChip(this)">What is the main summary?</div>
-            <div class="chip" onclick="useChip(this)">What are the key findings?</div>
-            <div class="chip" onclick="useChip(this)">What details are in this file?</div>
-            <div class="chip" onclick="useChip(this)">Can you explain the main conclusions?</div>
-          </div>
         </div>
       </div>
       <div class="chat-input-area">
