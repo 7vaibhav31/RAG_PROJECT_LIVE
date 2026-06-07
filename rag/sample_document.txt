@@ -1,0 +1,51 @@
+====================================================================
+                     GENERAL KNOWLEDGE BRIEF: AI & ML
+====================================================================
+
+DOCUMENT ID    : GKB-2026-001
+SUBJECT        : Artificial Intelligence and Machine Learning Foundations
+AUTHOR         : AI Research Group
+
+--------------------------------------------------------------------
+OVERVIEW OF ARTIFICIAL INTELLIGENCE
+--------------------------------------------------------------------
+Artificial Intelligence (AI) refers to the simulation of human intelligence
+in machines that are programmed to think like humans and mimic their actions.
+The term may also be applied to any machine that exhibits traits associated
+with a human mind such as learning and problem-solving.
+
+--------------------------------------------------------------------
+WHAT IS MACHINE LEARNING?
+--------------------------------------------------------------------
+Machine Learning (ML) is a subfield of artificial intelligence. It focuses
+on developing algorithms and statistical models that enable computers to learn
+and make predictions or decisions without being explicitly programmed to do so.
+Instead of following static instructions, ML systems use training data to build
+mathematical models and improve their performance over time.
+
+--------------------------------------------------------------------
+KEY CATEGORIES OF MACHINE LEARNING
+--------------------------------------------------------------------
+1. Supervised Learning:
+   The algorithm is trained on labeled training data, which means that each
+   training example is paired with its correct output label. Examples include
+   classification (e.g. email spam detection) and regression tasks.
+
+2. Unsupervised Learning:
+   The algorithm is given unlabeled data and must find patterns, groupings,
+   or structures within the data on its own. A common example is clustering
+   (e.g. grouping customers by purchase behavior).
+
+3. Reinforcement Learning:
+   The algorithm learns by interacting with an environment, receiving feedback
+   in the form of rewards or penalties, and adjusting its actions to maximize
+   the cumulative reward.
+
+--------------------------------------------------------------------
+DIFFERENCE BETWEEN DEEP LEARNING AND MACHINE LEARNING
+--------------------------------------------------------------------
+Deep Learning is a specialized subset of Machine Learning that is based on
+artificial neural networks with multiple layers (hence "deep"). While traditional
+Machine Learning often requires human engineers to hand-craft feature extraction,
+Deep Learning algorithms can automatically learn hierarchical feature representations
+directly from raw data (such as pixels of an image or text characters).
