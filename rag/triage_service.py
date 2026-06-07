@@ -8,7 +8,7 @@ import os
 API_KEY = os.environ.get("NVIDIA_API_KEY", "")
 MODEL   = "meta/llama-3.1-8b-instruct"
 
-QA_SYSTEM_PROMPT = """You are an advanced medical document assistant. 
+QA_SYSTEM_PROMPT = """You are an advanced document Q&A assistant. 
 Answer the user's questions strictly based on the provided document excerpts.
 Be thorough, accurate, and professional. Structure your answer well using bullet points if helpful. Do NOT hallucinate data not found in the text."""
 
@@ -19,7 +19,7 @@ class DocumentQAService:
     def ingest_document(self, text: str) -> int:
         return self.rag.ingest(text)
         
-    def answer_medical_question(self, query: str) -> dict:
+    def answer_question(self, query: str) -> dict:
         if not API_KEY:
             raise ValueError("NVIDIA_API_KEY environment variable is not configured. Please set it in your environment or Vercel settings.")
 
@@ -40,7 +40,7 @@ class DocumentQAService:
 {rag_context}
 
 ---
-Based strictly on the medical excerpts above, answer the following clinical query:
+Based strictly on the document excerpts above, answer the following query:
 {query}"""
 
         response = client.chat.completions.create(

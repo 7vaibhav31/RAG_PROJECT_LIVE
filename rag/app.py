@@ -33,7 +33,7 @@ def qa_document():
     try:
         if not qa_service.rag.chunks:
             return jsonify({"error": "Please upload a prescription or document first."}), 400
-        result = qa_service.answer_medical_question(query)
+        result = qa_service.answer_question(query)
         return jsonify(result)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
